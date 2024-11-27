@@ -18,10 +18,35 @@ function square(a) {
   return a * a;
 }
 
+function cube(a) {
+  return a * a * a;
+}
+
+function power(a, b) {
+  return Math.pow(a, b);
+}
+
+function root(a) {
+  return Math.sqrt(a);
+}
+
+function round(a) {
+  return Math.round(a);
+}
+
+function roundUp(a) {
+  return Math.ceil(a);
+}
+
 module.exports = {
   add, 
   subtract,
   multiply,
   divide,
   square,
+  cube,
+  power,
+  root,
+  round,
+  roundUp
 };
